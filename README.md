@@ -48,3 +48,5 @@
   <img height="175em" src="https://github-readme-stats.vercel.app/api?username=nicolascorrea15&show_icons=true&theme=catppuccin_mocha&include_all_commits=true&count_private=true&hide_border=true" alt="Estatísticas do GitHub de Nicolas Alves" />
   <img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nicolascorrea15&layout=compact&langs_count=6&theme=catppuccin_mocha&hide_border=true" alt="Linguagens mais usadas" />
 </div>
+
+[Meu portifolio](https://nicolascorrea15.github.io/nicolascorrea15/)
