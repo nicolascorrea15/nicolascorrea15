@@ -6,6 +6,7 @@
 
 [![Email](https://img.shields.io/badge/Email-nicolastrabalho1501%40gmail.com-89b4fa?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e1e2e)](mailto:nicolastrabalho1501@gmail.com)
 
+<a href="https://www.linkedin.com/in/nicolas-alves-correa-74234a3b7" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1e1e2e" alt="LinkedIn" /></a>
 </div>
 
 ---
