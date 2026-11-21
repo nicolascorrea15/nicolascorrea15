@@ -18,7 +18,7 @@
 - 🎓 Graduando em **Ciência da Computação** no Centro Universitário do Distrito Federal (**UDF**).
 - 💻 Focado em fundamentos de programação, lógica de algoritmos, modelagem de banco de dados e cloud computing.
 - 🐧 Entusiasta do ecossistema **Linux** (Linux Mint / Ubuntu) e fluxos de trabalho no terminal com Git e VS Code.
-- 🥋 Fora do código, jogo no computador e toco violão.
+- 🎸 Fora do código, jogo no computador e toco violão.
 
 ---
 
