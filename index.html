@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Nicolas Alves</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Nicolas Alves</a>
+            
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                ☰
+            </button>
+
+            <nav class="nav" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#habilidades">O que faço</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="sobre" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="tag">Olá, eu me chamo</span>
+                <h1>Nicolas Alves Correa</h1>
+                <h2>Atualmente faço o 2° semestre em Ciências da Computação.</h2>
+                <p>
+                    Na área de tecnologia, meu foco atual está nos estudos de Cloud Computing, buscando entender cada vez mais como funcionam serviços e aplicações na nuvem. Fora da vida acadêmica meus principais passatempos são tocar violão, jogar para relaxar e acompanhar campeonatos de futebol e basquete.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn btn-secondary">Falar Comigo</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/perfil.jpg">
+            </div>
+        </div>
+    </section>
+    <section id="habilidades" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">O que eu faço</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Cloud computing</h3>
+                    <p>Estudo de arquitetura em nuvem com foco em AWS, Azure e GCP, além de fundamentos de virtualização, contêineres (Docker e Kubernetes) e práticas iniciais de DevOps para implantação de aplicações.</p>
+                </div>
+                <div class="card">
+                    <h3>Python & Lógica de Programação</h3>
+                    <p>Desenvolvimento de scripts estruturados utilizando modularização, pacotes, manipulação de arquivos e tratamento de erros, aplicando boas práticas de código limpo e lógica algorítmica.</p>
+                </div>
+                <div class="card">
+                    <h3>Violão (Rock & MPB)</h3>
+                    <p>Prática de violão nas horas vagas como forma de lazer e criatividade, com repertório focado em arranjos acústicos de Rock e MPB.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="section bg-alt">
+        <div class="container contact-container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p>Quer trocar uma ideia sobre tecnologia, projetos ou algum hobby em comum? Me mande uma mensagem:</p>
+            <div class="social-links">
+                <a href="https://github.com/nicolascorrea15" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/nicolas-alves-correa-74234a3b7" target="_blank">LinkedIn</a>
+                <a href="mailto: nicolastrabalho1501@gmail.com">E-mail</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="ano-atual"></span> Nicolas Alves | Desenvolvido para o Projeto Final - A1 da disciplina Desenvolvimento Front-End.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

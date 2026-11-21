@@ -1,0 +1,339 @@
+/* Paleta inspirada no Palmeiras (Verde-esmeralda, Branco e toque discreto de Dourado) */
+:root {
+    --bg-main: #08140e;          /* Verde-floresta muito profundo (base da página) */
+    --bg-alt: #0d2117;           /* Verde-musgo fechado para alternância de seções */
+    --bg-card: #122b1e;          /* Fundo dos cartões com leve elevação */
+    --header-bg: #050e09;        /* Tom mais escuro para cabeçalho e rodapé */
+    
+    --text-primary: #f2f6f4;     /* Branco gelo (alta legibilidade) */
+    --text-secondary: #9cb3a6;   /* Cinza-esverdeado suave para parágrafos */
+    
+    --palmeiras-green: #006437;  /* Verde oficial clássico (sóbrio) */
+    --green-highlight: #2e8b57;  /* Verde-esmeralda para hover e títulos */
+    --gold-detail: #c5a059;      /* Dourado fosco usado apenas em detalhes mínimos */
+    --border-subtle: #1b3d2c;    /* Linhas divisórias discretas */
+}
+
+/* Reset e Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    line-height: 1.65;
+}
+
+.container {
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho e Navegação */
+.header {
+    background-color: rgba(5, 14, 9, 0.96);
+    border-bottom: 1px solid var(--border-subtle);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.logo {
+    color: var(--text-primary);
+    font-size: 1.35rem;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.4px;
+    border-left: 3px solid var(--palmeiras-green);
+    padding-left: 0.6rem;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-list a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.25s ease;
+}
+
+.nav-list a:hover {
+    color: var(--text-primary);
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--text-primary);
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+/* Seção Principal (Hero / Sobre) */
+.hero {
+    padding: 5.5rem 0;
+    background: radial-gradient(circle at top right, rgba(0, 100, 55, 0.14), transparent 55%);
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.5rem;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.tag {
+    display: inline-block;
+    color: var(--gold-detail);
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-size: 0.82rem;
+    margin-bottom: 0.3rem;
+}
+
+.hero-text h1 {
+    font-size: 2.8rem;
+    line-height: 1.2;
+    margin-bottom: 0.6rem;
+    color: var(--text-primary);
+}
+
+.hero-text h2 {
+    font-size: 1.25rem;
+    color: var(--green-highlight);
+    font-weight: 500;
+    margin-bottom: 1.4rem;
+}
+
+.hero-text p {
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    max-width: 580px;
+}
+
+/* Botões */
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.75rem 1.6rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.25s ease;
+    display: inline-block;
+}
+
+.btn-secondary {
+    background-color: var(--palmeiras-green);
+    color: var(--text-primary);
+    border: 1px solid var(--green-highlight);
+}
+
+.btn-secondary:hover {
+    background-color: var(--green-highlight);
+    transform: translateY(-2px);
+}
+
+/*Perfil*/
+.hero-image img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    object-position: center 100%; 
+    border-radius: 50%;
+    border: 3px solid var(--palmeiras-green);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+}
+
+/* Geral*/
+.section {
+    padding: 4.5rem 0;
+}
+
+.bg-alt {
+    background-color: var(--bg-alt);
+    border-top: 1px solid var(--border-subtle);
+}
+
+/* Troca a cor das seções */
+.bg-alt + .bg-alt {
+    background-color: var(--bg-main);
+}
+
+.section-title {
+    font-size: 1.85rem;
+    margin-bottom: 2.8rem;
+    text-align: center;
+    color: var(--text-primary);
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 3px;
+    background-color: var(--palmeiras-green);
+    margin: 0.6rem auto 0;
+    border-radius: 2px;
+}
+
+/*Habilidades*/
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-top: 3px solid var(--palmeiras-green);
+    padding: 2rem 1.8rem;
+    border-radius: 8px;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    border-color: var(--green-highlight);
+}
+
+.card h3 {
+    color: var(--text-primary);
+    font-size: 1.15rem;
+    margin-bottom: 0.85rem;
+}
+
+.card p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+/* Contato */
+.contact-container {
+    max-width: 620px;
+    text-align: center;
+}
+
+.contact-container p {
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    color: var(--text-primary);
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    padding: 0.7rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.25s ease;
+}
+
+.social-links a:hover {
+    background-color: var(--palmeiras-green);
+    border-color: var(--green-highlight);
+    transform: translateY(-2px);
+}
+
+/*Rodapé*/
+.footer {
+    background-color: var(--header-bg);
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 1px solid var(--border-subtle);
+    color: var(--text-secondary);
+    font-size: 0.88rem;
+}
+
+/*Mobile*/
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: var(--header-bg);
+        border-bottom: 1px solid var(--border-subtle);
+        padding: 1.2rem 0;
+    }
+
+    .nav.active {
+        display: block;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.2rem;
+    }
+
+    .hero {
+        padding: 3.5rem 0;
+    }
+
+    .hero-content {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .hero-text h1 {
+        font-size: 2.1rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .grid-3 {
+        grid-template-columns: 1fr;
+    }
+}
