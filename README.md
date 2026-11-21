@@ -7,6 +7,8 @@
 [![Email](https://img.shields.io/badge/Email-nicolastrabalho1501%40gmail.com-89b4fa?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e1e2e)](mailto:nicolastrabalho1501@gmail.com)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1e1e2e)](https://www.linkedin.com/in/nicolas-alves-correa-74234a3b7)
+
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://nicolascorrea15.github.io/nicolascorrea15/)
 </div>
 
 ---
@@ -49,4 +51,3 @@
   <img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nicolascorrea15&layout=compact&langs_count=6&theme=catppuccin_mocha&hide_border=true" alt="Linguagens mais usadas" />
 </div>
 
-[Meu portifolio](https://nicolascorrea15.github.io/nicolascorrea15/)
