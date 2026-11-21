@@ -4,7 +4,6 @@
 
 **Estudante de Ciência da Computação (UDF) • Brasília - DF**
 
-[![GitHub followers](https://img.shields.io/github/followers/nicolascorrea15?label=Seguidores&style=for-the-badge&color=cba6f7&labelColor=1e1e2e)](https://github.com/nicolascorrea15?tab=followers)
 [![Email](https://img.shields.io/badge/Email-nicolastrabalho1501%40gmail.com-89b4fa?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e1e2e)](mailto:nicolastrabalho1501@gmail.com)
 
 </div>
@@ -16,7 +15,7 @@
 - 🎓 Graduando em **Ciência da Computação** no Centro Universitário do Distrito Federal (**UDF**).
 - 💻 Focado em fundamentos de programação, lógica de algoritmos, modelagem de banco de dados e cloud computing.
 - 🐧 Entusiasta do ecossistema **Linux** (Linux Mint / Ubuntu) e fluxos de trabalho no terminal com Git e VS Code.
-- 🥋 Fora do código, pratico Jiu-Jitsu e toco violão.
+- 🥋 Fora do código, jogo no computador e toco violão.
 
 ---
 
@@ -43,11 +42,6 @@
 
 ---
 
-### 📌 Projeto em Destaque
-
-- **[Animoedas](https://github.com/nicolascorrea15)** — Aplicação web educativa desenvolvida em HTML5 e CSS3 dedicada a apresentar e catalogar a fauna brasileira estampada nas cédulas do Real.
-
----
 
 ### 📊 Estatísticas no GitHub
 
