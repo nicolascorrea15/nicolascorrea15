@@ -1,4 +1,3 @@
-/* Paleta inspirada no Palmeiras (Verde-esmeralda, Branco e toque discreto de Dourado) */
 :root {
     --bg-main: #08140e;          /* Verde-floresta muito profundo (base da página) */
     --bg-alt: #0d2117;           /* Verde-musgo fechado para alternância de seções */
@@ -14,8 +13,8 @@
     --border-subtle: #1b3d2c;    /* Linhas divisórias discretas */
 }
 
-/* Reset e Configurações Gerais */
-* {
+
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
